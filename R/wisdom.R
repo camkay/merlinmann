@@ -1,6 +1,6 @@
 #' wisdom
 #' 
-#' Dispenses a randomly selected piece of wisdom from Merlin Mann's \href{Wisdom Project}{https://github.com/merlinmann/wisdom}.
+#' Dispenses a randomly selected piece of wisdom from Merlin Mann's \href{https://github.com/merlinmann/wisdom}{Wisdom Project}.
 #' 
 #' @export
 
