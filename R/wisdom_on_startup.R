@@ -5,6 +5,7 @@
 #' @export
 
 wisdom_on_startup <- function() {
+  wisdom_project <- merlinmann::wisdom_project
   if ((home <- Sys.getenv("HOME")) == "") {
     home <- normalizePath("~")
   }
