@@ -1,0 +1,15 @@
+Package: merlinmann
+Title: Wisdom from Merlin Mann
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cameron",
+           family = "Kay",
+           role = c("aut", "cre"),
+           email = "cameronstuartkay@gmail.com")
+Description: Have R dispense a piece of Merlin Mann's Wisdom at startup.   
+Depends: R (>= 3.3.0)
+License: MIT + file LICENSE
+Date: 2022-02-12
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
