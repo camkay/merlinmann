@@ -8,6 +8,8 @@ Authors@R:
            email = "cameronstuartkay@gmail.com")
 Description: Have R dispense a piece of Merlin Mann's Wisdom at startup.   
 Depends: R (>= 3.3.0)
+Imports: 
+  crayon
 License: MIT + file LICENSE
 Date: 2022-02-12
 Encoding: UTF-8

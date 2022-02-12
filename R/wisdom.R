@@ -6,7 +6,7 @@
 
 wisdom <- function() {
   w <- sample(wisdom_project, 1)
-  w <- paste0("\"", w, "\"", "- Merlin Mann")
+  w <- paste0("\"", w, "\"", " - Merlin Mann")
   w <- strwrap(w, indent = 2, exdent = 2)
   cat(w, fill = TRUE)
 }
