@@ -14,7 +14,7 @@ wisdom_on_startup <- function() {
   p <- readLines(con, warn = FALSE)
   close(con)
   if (any(grepl("merlinmann", p))) {
-    cat("It appears you already have 'merlinmann' in your .Rprofile\n")
+    cat("It looks like you already have 'merlinmann' in your .Rprofile\n")
     return(invisible())
   }
   add_to_rprof <- 'local(if (interactive() && requireNamespace("merlinmann", quietly = TRUE)) {merlinmann::wisdom()})'
