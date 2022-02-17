@@ -6,7 +6,7 @@ wisdom_project <- readLines(here::here("clean", "wisdom.md"))
 # tidy
 wisdom_project <- grep("^- ", wisdom_project, value = TRUE)
 wisdom_project <- wisdom_project[-1:-11]
-wisdom_project <- gsub("(Related|Relatedly related|Alternatively): ", "", wisdom_project)
+wisdom_project <- gsub("(Related|Relatedly related|Alternatively|Corollary): ", "", wisdom_project)
 wisdom_project <- gsub("- ", "", wisdom_project)
 
 # fix one offs
